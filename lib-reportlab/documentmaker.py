@@ -28,7 +28,7 @@ story.append(Spacer(1, 50))
 
 story.append(Paragraph('To', styles['Normal']))
 story.append(Paragraph('The Chief Executive Officer', styles['Normal']))
-story.append(Spacer(1, 30))
+story.append(Spacer(1, 10))
 
 story.append(Paragraph(f'PROPOSED BY: {proposer}', styles['Normal']))
 # story.append(Spacer(1, 30))
