@@ -6,7 +6,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 
 
-document = SimpleDocTemplate('budget_template.pdf',
+document = SimpleDocTemplate('pdfs-generated-by-codes/budget_template.pdf',
                             pagesize=letter,
                             rightMargin=100, leftMargin=100,
                             topMargin=0, bottomMargin=100)

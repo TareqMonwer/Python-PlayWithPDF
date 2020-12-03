@@ -22,6 +22,6 @@ def string_alignment(c):
 
 
 if __name__ == "__main__":
-    canvas_ = canvas.Canvas('string_alignment.pdf')
+    canvas_ = canvas.Canvas('pdfs-generated-by-codes/string_alignment.pdf')
     string_alignment(canvas_)
     canvas_.save()

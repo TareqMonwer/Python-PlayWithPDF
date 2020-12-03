@@ -9,7 +9,8 @@ def draw_lines(c, start_y):
 
 
 if __name__ == "__main__":
-    canvas_ = canvas.Canvas('lines.pdf', pagesize=letter)
+    canvas_ = canvas.Canvas(
+        'pdfs-generated-by-codes/lines.pdf', pagesize=letter)
     start_y = 710
     for _ in range(10):
         draw_lines(canvas_, start_y)

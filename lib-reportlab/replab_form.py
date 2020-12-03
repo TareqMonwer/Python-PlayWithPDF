@@ -1,7 +1,7 @@
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
-canvas = canvas.Canvas("form.pdf", pagesize=letter)
+canvas = canvas.Canvas("pdfs-generated-by-codes/form.pdf", pagesize=letter)
 canvas.setLineWidth(2)
 canvas.setFont('Helvetica', 12)
 

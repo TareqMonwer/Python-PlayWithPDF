@@ -7,10 +7,11 @@ def coord(x, y, height, unit=1):
     x, y = x * unit, height - y * unit
     return x, y
 
-c = canvas.Canvas('hello2.pdf', pagesize=letter)
+
+c = canvas.Canvas('pdfs-generated-by-codes/hello2.pdf', pagesize=letter)
 width, height = letter
 
-my_text = "This is my dummy text for you, PDF!"
+my_text = "HELLO 2 RUNNIG TEST AFTER FOLDER REFACTORING."
 c.drawString(*coord(30, 30, height, mm), text=my_text)
 c.showPage()
 c.save()

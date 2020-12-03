@@ -5,7 +5,7 @@ from reportlab.platypus import Image
 
 
 def get_qr_code(barcode_value):
-    doc = SimpleDocTemplate('qr_code2.pdf')
+    doc = SimpleDocTemplate('pdfs-generated-by-codes/qr_code2.pdf')
     flowables = []
 
     qr_img = qrcode.make(barcode_value)

@@ -5,7 +5,7 @@ from reportlab.pdfgen import canvas
 
 
 def qr_code(barcode_value):
-    c = canvas.Canvas('qr_code.pdf')
+    c = canvas.Canvas('pdfs-generated-by-codes/qr_code.pdf')
     qrcode = qr.QrCodeWidget(barcode_value)
     qrcode.barWidth = 145
     qrcode.barHeight = 145

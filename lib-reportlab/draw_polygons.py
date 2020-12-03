@@ -3,7 +3,7 @@ from reportlab.pdfgen import canvas
 
 
 def draw_shapes():
-    c = canvas.Canvas('shapes.pdf', pagesize=letter)
+    c = canvas.Canvas('pdfs-generated-by-codes/shapes.pdf', pagesize=letter)
     c.setStrokeColorRGB(0.2, 0.5, 0.3)
     c.rect(10, 580, 200, 200, stroke=1, fill=1)
     c.setFillColorRGB(.5,.8, .6)

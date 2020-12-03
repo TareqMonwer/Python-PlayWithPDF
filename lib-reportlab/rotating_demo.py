@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 
 
 def rotate_demo():
-    c = canvas.Canvas('rotated.pdf', pagesize=letter)
+    c = canvas.Canvas('pdfs-generated-by-codes/rotated.pdf', pagesize=letter)
     c.translate(inch, inch)
     c.setFont('Helvetica', 14)
     c.drawString(inch, inch, 'Normal')

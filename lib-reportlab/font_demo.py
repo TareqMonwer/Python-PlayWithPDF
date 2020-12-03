@@ -15,7 +15,8 @@ def font_demo(my_canvas, fonts, colors):
 
 
 if __name__ == '__main__':
-    my_canvas = canvas.Canvas('fonts.pdf', pagesize=letter)
+    my_canvas = canvas.Canvas(
+        'pdfs-generated-by-codes/fonts.pdf', pagesize=letter)
     fonts = my_canvas.getAvailableFonts()
     colors = ['red', 'green', 'blue', 'orange', 'purple', 'black', 'yellow']
     font_demo(my_canvas, fonts, colors)
